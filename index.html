@@ -1,353 +1,1335 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iPortfolio Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!--====== Title ======-->
+    <title>Keshiha Portfolio</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .popup-all {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+            z-index: 9999;
+            display: none;
+        }
+
+        .popup-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        .technologies {
+            font-style: italic;
+            color: #444; /* Dark grey color */
+            text-align: left;
+        }
+        .work-ex {
+            /* font-style: italic; */
+            color: #7136de;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .alignleft {
+            /* align-items: left; */
+            text-align: left;
+        }
+        .bullet-list {
+            list-style-type: none; /* Remove default bullet points */
+            padding-left: 0; /* Remove default padding */
+        }
+
+        .bullet-list li {
+            margin-left: 1.5em; /* Add space between bullet points and text */
+            text-indent: -1.5em; /* Push text to the left to align with bullet points */
+        }
+        .service-title2 {
+            font-size: 18px;
+            /* color: #7136de; */
+            color: #000;
+            font-family: "Poppins", sans-serif;
+        }
+        .centerAlign {
+            /* margin-left: 15%; */
+            /* margin-right: 15%; */
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+        .service-title3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    </style>
+
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <!--====== PRELOADER PART START ======-->
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle" height="30px" width="30px">
-        <h1 class="text-light"><a href="index.html">Keshiha Jeyatharan</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <div class="preloader">
+        <div class="loader_34">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <!-- <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
     </div>
-  </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Keshiha Jeyatharan</h1>
-      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Singer"></span></p>
-    </div>
-  </section><!-- End Hero -->
+    <!--====== PRELOADER ENDS START ======-->
 
-  <main id="main">
+    <!--====== HEADER PART START ======-->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
+    <header id="home" class="header-area">
+        <div class="navigation fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo.png" alt="Logo" style="height: 200px; width: 200px; margin-top: -35px; margin-bottom: -35px;">
+                            </a> <!-- Logo -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
 
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Experienced and versatile software engineer with three years of industry
-expertise. Skilled in both front-end and back-end development, adept at
-collaborating with cross-functional teams to deliver high-quality solutions.
-Passionate about innovation and committed to continuous learning.</p>
-        </div>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#service">Services</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#work">Portfolio</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navigation -->
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" height="30px" width="30px">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Full stack developer</h3>
-            <br>
+        <div id="parallax" class="header-content d-flex align-items-center">
+            <div class="header-shape shape-one layer" data-depth="0.10">
+                <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-tow layer" data-depth="0.30">
+                <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-three layer" data-depth="0.40">
+                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-fore layer" data-depth="0.60">
+                <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-five layer" data-depth="0.20">
+                <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-six layer" data-depth="0.15">
+                <img src="assets/images/banner/shape/shape-4.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-seven layer" data-depth="0.50">
+                <img src="assets/images/banner/shape/shape-5.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-eight layer" data-depth="0.40">
+                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-nine layer" data-depth="0.20">
+                <img src="assets/images/banner/shape/shape-6.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-ten layer" data-depth="0.30">
+                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="header-content-right">
+                            <h4 class="sub-title">Hello, I’m</h4>
+                            <h1 class="title">Keshiha Jeyatharan</h1>
+                            <p>Senior Software Engineer</p>
+                            <a class="main-btn" href="#work">View my Work</a>
+                        </div> <!-- header content right -->
+                    </div>
+                    <div class="col-lg-6 offset-xl-1">
+                        <div class="header-image d-none d-lg-block">
+                            <img src="assets/images/banner/hero.png" alt="hero">
+                        </div> <!-- header image -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+            <div class="header-social">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="header-social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                                    <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                    <li><a href="#"><i class="lni-behance-original"></i></a></li>
+                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                                </ul>
+                            </div> <!-- header social -->
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- container -->
+            </div> <!-- header social -->
+        </div> <!-- header content -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about" class="about-area pt-125 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h2 class="title">About Me</h2>
+                        <p>Experienced software engineer with three years' industry expertise. Skilled in front-end and back-end development, adept at collaborating with teams for high-quality solutions. Passionate about innovation and continuous learning.                        </p>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-book"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title3">Education</h4>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="single-service text-center mt-30">
+                                                <div class="service-content">
+                                                    <h4 class="service-title2">BSc. (Hons) in Computer Science</h4>
+                                                    <br/><h6 class="work-ex">2017 - 2021</h6> <br/>
+                                                    <ul class="bullet-list">
+                                                        <li>University of Colombo School of Computing</li>
+                                                        <li>First Class Honours</li>
+                                                        <li>GPA: 3.7/4.0</li>
+                                                    </ul>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="single-service text-center mt-30">
+                                                <div class="service-content">
+                                                    <h4 class="service-title2">G.C.E Advanced Level</h4>
+                                                    <br/><h6 class="work-ex">2015</h6> <br/>
+                                                    <ul class="bullet-list">
+                                                        <li>Methodist College Colombo</li>
+                                                        <li>Physical Science Stream</li>
+                                                        <li>A & 2B</li>
+                                                        <li><br/></li>
+                                                        <li><br/></li>
+                                                    </ul>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="single-service text-center mt-30">
+                                                <div class="service-content">
+                                                    <h4 class="service-title2">G.C.E Ordinary Level</h4>
+                                                    <br/><h6 class="work-ex">2012</h6> <br/>
+                                                    <ul class="bullet-list">
+                                                        <li>C/ Good Shepherd Girls Maha Vidyalayam </li>
+                                                        <li>9A</li>
+                                                        <li><br/></li>
+                                                        <li><br/></li>
+                                                    </ul>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="single-service text-center mt-30">
+                                    <div class="service-icon">
+                                        <!-- <i class="lni-color-pallet"></i> -->
+                                        <i class="lni-code-alt"></i>
+                                    </div>
+                                <div class="service-content">
+                                    <h4 class="service-title3">Work Experience</h4>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="single-service text-center mt-30">
+                                                <div class="service-content">
+                                                    <h4 class="service-title2">Senior Software Engineer <br/> WSO2 Choreo</h4>
+                                                    <br/><h6 class="work-ex"> May 2023 - Present</h6> <br/>
+                                                    <p>I manage Choreo Organization, drive product discussions, integrate platform products, automate tests, and ensure code quality.</p>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="single-service text-center mt-30">
+                                                <div class="service-content">
+                                                    <h4 class="service-title2">Software Engineer <br/> WSO2 Choreo</h4>
+                                                    <br/><h6 class="work-ex"> May 2021 -  May 2023</h6><br/>
+                                                    <p>Focused on Choreo APIM, Connectors & Low Code, aligning solutions with goals. Lead feature dev, ensure testing, documentation.</p>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="single-service text-center mt-30">
+                                                <div class="service-content">
+                                                    <h4 class="service-title2">Software Engineering Intern <br/> WSO2  APIM</h4>
+                                                    <br/><h6 class="work-ex">Aug 2019  -  Jan 2020</h6><br/>
+                                                    <p>Built Kubernetes Custom Resource Definition and Controller, contributing to design. Gained hands-on experience in container orchestration.</p>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div> 
+                        </div>
+                        
+                    </div> 
+                </div>
+            </div> <!-- row -->
             <div class="row">
-              <div class="col-lg-10">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>17 February 1996</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://github.com/anukeshi</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>(+65) 9421 8571</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Singapore</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc (Honours) in Computer Science</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>keshihajeyatharan@gmailcom</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span>https://github.com/anukeshi</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <span>https://www.linkedin.com/in/keshi-jeyatharan/</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Experienced and versatile software engineer with three years of industry
-expertise. Skilled in both front-end and back-end development, adept at
-collaborating with cross-functional teams to deliver high-quality solutions.
-Passionate about innovation and committed to continuous learning.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Experienced and versatile software engineer with three years of industry
-expertise. Skilled in both front-end and back-end development, adept at
-collaborating with cross-functional teams to deliver high-quality solutions.
-Passionate about innovation and committed to continuous learning.</p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-            </div>
-
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                <!-- <div class="offset-xl-1 col-lg-8 centerAlign"> -->
+                    <div class="col-lg-8 col-md-8 col-sm-8 centerAlign">
+                    <div class="about-skills pt-25">
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Programming: </h6>
+                                <p>Java, Python, Go, Arduino, Ballerina</p>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">90</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Web Development:</h6>
+                                <p>React, HTML, CSS, Javascript, PHP Angular, Nodejs</p>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">85</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Database:</h6>
+                                <p>MySQL, MSSQL, Firebase Mongo db</p>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">80</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Mobile Development:</h6>
+                                <p>Andriod Studio</p>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">75</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="skill-item mt-25">
+                            <div class="skill-header">
+                                <h6 class="skill-title">Container Orchestration:</h6>
+                                <p>Docker Kubernetes</p>
+                                <div class="skill-percentage">
+                                    <div class="count-box counted">
+                                        <span class="counter">85</span>
+                                    </div>
+                                    %
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="bar-inner">
+                                    <div class="bar progress-line" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+            </div> 
+        </div> 
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== SERVICES PART START ======-->
+
+    <section id="service" class="services-area gray-bg pt-125 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center pb-30">
+                        <h2 class="title">My Services</h2>
+                        <p>I offer comprehensive software solutions, including web and mobile development, consultation, support, UI/UX design, and documentation with demos</p>
+                    </div> <!-- section title -->
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-code-alt"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Web Development</a></h4>
+                            <p>Creating websites and web applications tailored to client needs.
+                            </p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-color-pallet"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#contact">Web Design</a></h4>
+                            <p>Crafting visually appealing and user-friendly website interfaces.
+                            </p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-mobile"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Mobile App Development</a></h4>
+                            <p>Creating mobile apps for iOS and Android platforms.
+                            </p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-magnifier"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Software Testing and Quality Assurance: </a></h4>
+                            <p>Ensuring software meets quality standards through rigorous testing & automation.
+                            </p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-database"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Database Development and Management</a></h4>
+                            <p>Designing and maintaining databases to store and organize data efficiently.
+                            </p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-cloud-sync"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Cloud Computing Solutions</a></h4>
+                            <p>Leveraging cloud technology to deliver scalable and flexible solutions.
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-rocket"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Maintenance and Upgrades</a></h4>
+                            <p>Providing ongoing support, buf fixes, updates, and enhancements to software products.
 
-        </div>
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-lock"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Ensuring Security Compliance</a></h4>
+                            <p>Implementing measures to protect software systems and data from threats & vulnerabilities.
 
-      </div>
-    </section><!-- End Contact Section -->
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-write"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Documentation</a></h4>
+                            <p>Creating comprehensive documentation to explain software functionality, usage, and implementation details.
 
-  </main><!-- End #main -->
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-mic"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Technical Training and Workshops</a></h4>
+                            <p>Providing workshops to enhance technical skills and knowledge.</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-bulb"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Machine Learning and AI Development</a></h4>
+                            <p>Building intelligent systems that can learn and adapt.
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni-seo-consulting"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#">Consultancy and Support</a></h4>
+                            <p>Guiding clients with expert advice and technical assistance through their projects and challenges.
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+    <!--====== SERVICES PART ENDS ======-->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!--====== CALL TO ACTION PART START ======-->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- <section id="call-to-action" class="call-to-action pt-125 pb-130 bg_cover" style="background-image: url(assets/images/call-to-action.jpg)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-9">
+                    <div class="call-action-content text-center">
+                        <h2 class="action-title">You are Using Free Lite Version of Unfold</h2>
+                        <p>Please, purchase full version of Unfold to get all pages and features. Including credits removal, permission to use in commercial projects, working contact from, docs and support</p>
+                        <ul>
+                            <li><a class="main-btn custom" rel="nofollow" href="https://rebrand.ly/unfold-ud">Get Full Version</a></li>
+                            <li><a class="main-btn custom-2" rel="nofollow" href="https://rebrand.ly/unfold-ud">View Details</a></li>
+                        </ul>
+                    </div> <!-- call action content
+                </div>
+            </div> 
+        </div> 
+    </section> -->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!--====== CALL TO ACTION PART ENDS ======-->
+
+    <!--====== WORK PART START ======-->
+
+    <section id="work" class="work-area pt-125 pb-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title pb-25">
+                        <h2 class="title">My Recent Works</h2>
+                        <p>Recent projects showcase my expertise in designing intuitive user interfaces and developing robust backend systems. Collaborated with cross-functional teams to deliver innovative solutions meeting client needs.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-1.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Behavior based human following robot</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-1.jpg" onclick="togglePopup1()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="popup1" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup1()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Behavior based human following robot</a></h4>
+                                    <p class="alignleft">Human-following mobile robot built with a novel robot control architecture, fuzzy logic, robust vision-based tracking, smooth movement, obstacle avoidance, and cost-effective hardware for dynamic environment.</p>
+                                    <br/>
+                                    <p class="alignleft">
+                                        Published at the IEEE 16th International Conference on Industrial and Information Systems (ICIIS)</p>
+                                        <br/>
+                                        <p class="technologies">Robotics, Computer Vision, Machine Learning, Electronics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-2.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Organization Management</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-2.jpg" onclick="togglePopup2()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup2" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup2()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Organization Management</a></h4>
+                                    <p class="alignleft">Highlighted features include enhancing Custom Themes & Custom Domains, handling Change Requests (CR), developing Asgardeo-integrated member invitation flow, supporting on-demand enhancements for Choreo Code Challenge, & implementing Stale Organization Deletion.</p>
+                                    <br/>
+                                        <p class="technologies">Java, Go, ballerina, node, react, html, javascript, css, mssql, shell
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-3.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">RBAC</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-3.jpg" onclick="togglePopup3()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup3" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup3()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Role Based Access Control</a></h4>
+                                    <p class="alignleft">Implemented Role-Based Access Control (RBAC) and supporting for Enterprise users and migrating Runtime APIs to Gateway for scoped based access control</p>
+                                    <br/>
+                                        <p class="technologies">Go, node, react, html, javascript, css, mssql, shell
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-4.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Choreo</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-4.jpg" onclick="togglePopup4()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup4" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup4()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Choreo</a></h4>
+                                    <p class="alignleft">Main features include implementing Bring Your Own Repository (BYOR) capability in Choreo console, Supporting DataBase (DB) connectors in Low Code, Developing Choreo Marketplace and supporting private connectors, handling Change Requests (CR), & Enhancing API pages with overview, settings, insights information.
+                                    </p>
+                                    <br/>
+                                        <p class="technologies">Java, Go, ballerina, node, react, html, javascript, css, mssql, mongodb
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-5.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Internship</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-5.jpg" onclick="togglePopup5()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup5" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup5()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Internship</a></h4>
+                                    <p class="alignleft">I developed a Custom Resource Definition and Controller for Kubernetes.. Contributing to the design and implementation, I also gained hands-on experience in container orchestration and cloud-native development, successfully delivering the project with comprehensive demonstration within the internship period. </p>
+                                    <br/>
+                                        <p class="technologies">Go, Kubernetes, Docker
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-6.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Zumba Fitness Management System</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-6.jpg" onclick="togglePopup6()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup6" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup6()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >N-Studio Zumba Fitness Management System</a></h4>
+                                    <p class="alignleft">Second Year Group Project - Top 8 Best Projects</p>
+                                    <br/>
+                                    <p class="alignleft">
+                                        A web based system for a zumba fitness center with Register, login, admin dashboard, managing customers, online scheduling, handling payments, sending notifications and month wise attendance and weight report generation.</p>
+                                        <br/>
+                                        <p class="technologies">Php (Laravel framework), Html, Css, Javascript, MySQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-7.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Boarding Room Management System</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-7.jpg" onclick="togglePopup7()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup7" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup7()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Boarding Room Management System</a></h4>
+                                    <p class="alignleft">A web based system to manage a Boarding Complex with register, login, managing profile, room availability, food orders, inventories and payment, sending notifications and generating monthly income report features.
+                                    </p>
+                                    <br/>
+                                        <p class="technologies">Angular, Node js, Express js, Mongo db
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-8.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">E-Commerce System for Farmers</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-8.jpg" onclick="togglePopup8()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup8" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup8()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >E-Commerce System for Farmers</a></h4>
+                                    <p class="alignleft">A web based platform to connect farmers & dealers, with Register, login, admin dashboard, managing advertisements, and notification system.</p>
+                                    <br/>
+                                        <p class="technologies">Php, Html, Css, Bootstrap, Javascript, MySQL
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-9.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Mobile Application for Learning Birds</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-9.jpg" onclick="togglePopup9()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup9" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup9()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Mobile Application for Learning Birds</a></h4>
+                                    <p class="alignleft">An android application for learning birds, with description, image gallery, videos showing their sounds and movements, and a map locating where they can be spotted.
+                                    </p>
+                                    <br/>
+                                        <p class="technologies">Andriod Studio, Firebase
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-10.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Face Mask Detector</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-10.jpg" onclick="togglePopup10()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup10" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup10()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Face Mask Detector
+                                    </a></h4>
+                                    <p class="alignleft">A computer vision based Face Mask Detector to alert individuals not wearing masks during the COVID-19 pandemic inside university premises.
+                                    </p>
+                                    <br/>
+                                        <p class="technologies">Python, Keras, Tensorflow, OpenCV, CNN
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-11.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">University Student Management System</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-11.jpg" onclick="togglePopup11()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup11" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup11()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >NSBM University Student Management System
+                                    </a></h4>
+                                    <p class="alignleft">A stand alone application for students enrolment, maintaining student and lecturers records, course management, and results management
+                                    </p>
+                                    <br/>
+                                   
+                                        <p class="technologies">Java (using Java Swing), MySQL
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/w-12.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Sokoban Game</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-12.jpg" onclick="togglePopup12()"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div id="popup12" class="popup-all" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="togglePopup12()">&times;</span>
+                        <div class="col-lg-12 col-md-6 col-sm-8">
+                            <div class="single-service text-center mt-30">
+                                <div class="service-icon">
+                                    <i class="lni-color-pallet"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h4 class="service-title"><a >Sokoban Game</a></h4>
+                                    <p class="alignleft">A stand alone application for the sokoban game with its necessary functionalities.</p>
+                                    <br/>
+                                        <p class="technologies">Java (using Java Swing)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="work-more text-center mt-50">
+                        <a class="main-btn" href="#">more works</a>
+                    </div> 
+                </div>
+            </div>  -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== WORK PART ENDS ======-->
+
+   
+    <!--====== BLOG PART START ======-->
+
+   <!-- <section id="blog" class="blog-area pt-125 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center pb-25">
+                        <h2 class="title">From The Blog</h2>
+                        <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+                    </div> 
+                </div>
+            </div> 
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8 col-sm-9">
+                    <div class="single-blog mt-30">
+                        <div class="blog-image">
+                            <img src="assets/images/blog/b-1.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="blog-details.html">Hired Releases 2023 Brand Health.</a></h4>
+                            <span>July 26, 2022</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-9">
+                    <div class="single-blog mt-30">
+                        <div class="blog-image">
+                            <img src="assets/images/blog/b-2.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="blog-details.html">Hired Releases 2023 Brand Health.</a></h4>
+                            <span>July 26, 2022</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-9">
+                    <div class="single-blog mt-30">
+                        <div class="blog-image">
+                            <img src="assets/images/blog/b-3.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title"><a href="blog-details.html">Hired Releases 2023 Brand Health.</a></h4>
+                            <span>July 26, 2022</span>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog-more text-center mt-50">
+                        <a class="main-btn" href="#">More posts</a>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </section>  -->
+
+    <!--====== BLOG PART ENDS ======-->
+
+    <!--====== CONTACT PART START ======-->
+
+    <section id="contact" class="contact-area pt-125 pb-130 gray-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center pb-25">
+                        <h2 class="title">Get In Touch</h2>
+                        <p>Passionate software engineer actively seeking new challenges and opportunities. Eager to contribute expertise in frontend, backend, and collaboration to innovative projects.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="contact-box text-center mt-30">
+                        <div class="contact-icon">
+                            <i class="lni-map-marker"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="contact-title">Address</h6>
+                            <p>BLK 111, #05-223 Tampines Street 11, Singapore 521111</p>
+                        </div>
+                    </div> <!-- contact box -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="contact-box text-center mt-30">
+                        <div class="contact-icon">
+                            <i class="lni-phone"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="contact-title">Phone</h6>
+                            <p>(+65) 9421 8571</p>
+                            <p><br/></p>
+                        </div>
+                    </div> <!-- contact box -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="contact-box text-center mt-30">
+                        <div class="contact-icon">
+                            <i class="lni-envelope"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="contact-title">Email</h6>
+                            <p>keshihajeyatharan@gmail.com</p>
+                            <p><br/></p>
+                        </div>
+                    </div> <!-- contact box -->
+                </div>
+            </div> <!-- row -->
+            <!-- <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-form pt-30">
+                        <form id="contact-form" action="assets/contact.php">
+                            <div class="single-form">
+                                <input type="text" name="name" placeholder="Name">
+                            </div> 
+                            <div class="single-form">
+                                <input type="email" name="email" placeholder="Email">
+                            </div> 
+                            <div class="single-form">
+                                <textarea name="message" placeholder="Message"></textarea>
+                            </div> 
+                            <p class="form-message"></p>
+                            <div class="single-form">
+                                <button class="main-btn" type="submit">Send Message</button>
+                            </div> 
+                        </form>
+                    </div> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-map mt-60">
+                        <div class="gmap_canvas">                            
+                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>  -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer-area">
+        <div class="footer-widget pt-25 pb-50">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="footer-content text-center">
+                            <!-- <a href="index.html">
+                                <img src="assets/images/logo-2.png" alt="Logo">
+                            </a> -->
+                            <p class="mt-">Thank you for visiting</p>
+                            <!-- <ul>
+                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                <li><a href="#"><i class="lni-pinterest"></i></a></li>
+                                <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                            </ul> -->
+                        </div> <!-- footer content -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
+       
+    </footer>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Parallax js ======-->
+    <script src="assets/js/parallax.min.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+
+    <!--====== Appear js ======-->
+    <script src="assets/js/jquery.appear.min.js"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+
+    <!--====== Validator js ======-->
+    <script src="assets/js/validator.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        function togglePopup1() {
+            var popup = document.getElementById('popup1');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup2() {
+            var popup = document.getElementById('popup2');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup3() {
+            var popup = document.getElementById('popup3');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup4() {
+            var popup = document.getElementById('popup4');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup5() {
+            var popup = document.getElementById('popup5');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup6() {
+            var popup = document.getElementById('popup6');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup7() {
+            var popup = document.getElementById('popup7');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup8() {
+            var popup = document.getElementById('popup8');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup9() {
+            var popup = document.getElementById('popup9');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup10() {
+            var popup = document.getElementById('popup10');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup11() {
+            var popup = document.getElementById('popup11');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+        function togglePopup12() {
+            var popup = document.getElementById('popup12');
+            popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
 
 </body>
 
